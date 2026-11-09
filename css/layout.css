@@ -1,0 +1,47 @@
+/* Positions measured from the Figma export. --u is 1/1047 of the artboard width. */
+.rings-home{left:calc(-800.00*var(--u));top:calc(-150.00*var(--u));width:calc(2650.00*var(--u))}
+.rings-yeeps{left:calc(-800.00*var(--u));top:calc(-150.00*var(--u));width:calc(2650.00*var(--u))}
+.rings-monarch{left:calc(-800.00*var(--u));top:calc(-150.00*var(--u));width:calc(2650.00*var(--u))}
+.backdrop{left:calc(-800.00*var(--u));top:calc(-150.00*var(--u));width:calc(2650.00*var(--u))}
+.ground{left:calc(276.40*var(--u));top:calc(1394.00*var(--u));width:calc(526.00*var(--u))}
+.flower-home-yeeps{left:calc(292.00*var(--u));top:calc(1160.40*var(--u));width:calc(212.00*var(--u));height:calc(304.00*var(--u));transform-origin:52.5% 100%}
+.flower-home-yeeps-stem{left:44.528%;top:43.947%;width:15.849%}
+.flower-home-yeeps-head{left:0.000%;top:0.000%;width:100.000%}
+.flower-home-monarch{left:calc(546.40*var(--u));top:calc(1213.20*var(--u));width:calc(171.60*var(--u));height:calc(241.60*var(--u));transform-origin:32.6% 100%}
+.flower-home-monarch-stem{left:14.685%;top:41.060%;width:35.897%}
+.flower-home-monarch-head{left:0.000%;top:0.000%;width:100.000%}
+.flower-yeeps-yeeps{left:calc(266.40*var(--u));top:calc(1065.60*var(--u));width:calc(271.60*var(--u));height:calc(400.00*var(--u));transform-origin:53.2% 100%}
+.flower-yeeps-yeeps-stem{left:47.570%;top:45.200%;width:11.193%}
+.flower-yeeps-yeeps-head{left:0.000%;top:0.000%;width:100.000%}
+.flower-yeeps-monarch{left:calc(555.20*var(--u));top:calc(1216.40*var(--u));width:calc(162.80*var(--u));height:calc(236.80*var(--u));transform-origin:32.1% 100%}
+.flower-yeeps-monarch-stem{left:16.216%;top:42.568%;width:31.695%}
+.flower-yeeps-monarch-head{left:0.000%;top:0.000%;width:100.000%}
+.flower-monarch-yeeps{left:calc(292.00*var(--u));top:calc(1160.40*var(--u));width:calc(212.00*var(--u));height:calc(304.00*var(--u));transform-origin:52.5% 100%}
+.flower-monarch-yeeps-stem{left:44.528%;top:43.947%;width:15.849%}
+.flower-monarch-yeeps-head{left:0.000%;top:0.000%;width:100.000%}
+.flower-monarch-monarch{left:calc(489.20*var(--u));top:calc(1052.00*var(--u));width:calc(286.40*var(--u));height:calc(408.40*var(--u));transform-origin:32.4% 100%}
+.flower-monarch-monarch-stem{left:15.363%;top:41.724%;width:34.078%}
+.flower-monarch-monarch-head{left:0.000%;top:0.000%;width:100.000%}
+.ground-2{left:calc(276.40*var(--u));top:calc(1400.00*var(--u));width:calc(526.00*var(--u))}
+.pin-home{left:calc(276.80*var(--u));top:calc(1383.20*var(--u));width:calc(97.60*var(--u))}
+.pin-yeeps{left:calc(268.00*var(--u));top:calc(1301.20*var(--u));width:calc(96.80*var(--u))}
+.pin-monarch{left:calc(276.80*var(--u));top:calc(1383.20*var(--u));width:calc(97.60*var(--u))}
+.butterfly{left:calc(753.60*var(--u));top:calc(1212.00*var(--u));width:calc(142.00*var(--u));height:calc(125.60*var(--u))}
+.heading-home{left:calc(306.40*var(--u));top:calc(874.80*var(--u));width:calc(436.80*var(--u))}
+.heading-yeeps{left:calc(220.40*var(--u));top:calc(582.80*var(--u));width:calc(604.80*var(--u))}
+.heading-monarch{left:calc(234.40*var(--u));top:calc(582.80*var(--u));width:calc(576.40*var(--u))}
+.hit-home-yeeps{left:calc(290.00*var(--u));top:calc(1160.00*var(--u));width:calc(215.00*var(--u));height:calc(305.00*var(--u))}
+.hit-home-monarch{left:calc(540.00*var(--u));top:calc(1210.00*var(--u));width:calc(190.00*var(--u));height:calc(255.00*var(--u))}
+.hit-yeeps-yeeps{left:calc(266.00*var(--u));top:calc(1065.00*var(--u));width:calc(272.00*var(--u));height:calc(401.00*var(--u))}
+.hit-yeeps-monarch{left:calc(555.00*var(--u));top:calc(1216.00*var(--u));width:calc(163.00*var(--u));height:calc(238.00*var(--u))}
+.hit-monarch-yeeps{left:calc(292.00*var(--u));top:calc(1160.00*var(--u));width:calc(215.00*var(--u));height:calc(305.00*var(--u))}
+.hit-monarch-monarch{left:calc(497.00*var(--u));top:calc(1052.00*var(--u));width:calc(280.00*var(--u));height:calc(413.00*var(--u))}
+.back-button{left:calc(355.00*var(--u));top:calc(583.00*var(--u));width:calc(336.00*var(--u));height:calc(100.00*var(--u))}
+.go-yeeps{left:calc(390.00*var(--u));top:calc(952.00*var(--u));width:calc(266.00*var(--u));height:calc(80.00*var(--u))}
+.go-monarch{left:calc(390.00*var(--u));top:calc(910.00*var(--u));width:calc(266.00*var(--u));height:calc(80.00*var(--u))}
+.popup-card{left:calc(172.00*var(--u));top:calc(362.80*var(--u));width:calc(736.80*var(--u))}
+.popup-email{position:absolute;left:calc(321.00*var(--u));top:calc(1248.00*var(--u));width:calc(435.00*var(--u));height:calc(40.00*var(--u))}
+.popup-close-art{left:calc(476.80*var(--u));top:calc(211.00*var(--u));width:calc(93.20*var(--u))}
+.popup-close{position:absolute;border-radius:50%;left:calc(487.00*var(--u));top:calc(220.00*var(--u));width:calc(72.00*var(--u));height:calc(72.00*var(--u))}
+.footer-text{position:absolute;left:calc(92.00*var(--u));top:calc(2458.25*var(--u));width:calc(168.75*var(--u))}
+.footer-dmca-link{left:calc(88.00*var(--u));top:calc(2476.00*var(--u));width:calc(50.00*var(--u));height:calc(24.00*var(--u))}
