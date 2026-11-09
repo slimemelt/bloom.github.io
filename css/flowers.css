@@ -1,0 +1,32 @@
+/* Flowers, rings, headings, butterfly: all the idle motion. */
+.flower,.pin,.butterfly{pointer-events:none}
+.flower .flower-stem{position:absolute;display:block;max-width:none;transform-origin:50% 100%}
+.flower .flower-head{position:absolute;display:block;transition:transform .35s cubic-bezier(.3,1.7,.5,1)}
+.flower .flower-head img{display:block;width:100%;max-width:none;animation:spin 30s linear infinite}
+.flower--monarch .flower-head img{animation-duration:42s;animation-direction:reverse}
+.flower{animation:sway 3.6s ease-in-out infinite alternate}
+.flower--monarch{animation-duration:4.4s;animation-delay:-1.4s}
+@keyframes sway{from{transform:rotate(-2.2deg)}to{transform:rotate(2.6deg)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.stage[data-hover=yeeps] .flower--yeeps .flower-head,.stage[data-hover=monarch] .flower--monarch .flower-head{transform:scale(1.1) rotate(6deg)}
+.stage:not(.ready) .flower-head{transform:scale(0)} .stage:not(.ready) .flower-stem{transform:scaleY(0)}
+.stage.ready .flower-stem{animation:growy .8s cubic-bezier(.2,1.3,.4,1) backwards}
+.stage.ready .flower--monarch .flower-stem{animation-delay:.25s}
+.stage.ready .flower-head{animation:popin .7s .55s cubic-bezier(.2,1.6,.4,1) backwards}
+.stage.ready .flower--monarch .flower-head{animation-delay:.8s}
+@keyframes growy{from{transform:scaleY(0)}}
+@keyframes popin{from{transform:scale(0) rotate(-90deg)}}
+.pin{transform-origin:50% 100%;animation:bob 2.6s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(0) rotate(-5deg)}to{transform:translateY(calc(-7*var(--u))) rotate(5deg)}}
+.rings{animation:ringdrift 26s ease-in-out infinite alternate;transform-origin:50% 20%}
+@keyframes ringdrift{from{transform:translate(0,0) rotate(0deg)}to{transform:translate(calc(-22*var(--u)),calc(14*var(--u))) rotate(1.6deg)}}
+.hill{animation:hillb 8s ease-in-out infinite alternate}
+@keyframes hillb{from{transform:translateY(0)}to{transform:translateY(calc(-9*var(--u)))}}
+.heading{animation:floaty 4.6s ease-in-out infinite alternate;translate:0 calc(28*var(--u));transition:opacity .4s,translate .55s cubic-bezier(.2,1.2,.4,1)}
+.stage[data-screen=home] .heading.st-home,.stage[data-screen=yeeps] .heading.st-ypch,.stage[data-screen=monarch] .heading.st-monarch{translate:0 0}
+@keyframes floaty{from{transform:translateY(0)}to{transform:translateY(calc(-6*var(--u)))}}
+.butterfly img{display:block;width:100%;}
+.butterfly{animation:flit 9s ease-in-out infinite}
+@keyframes flit{0%{transform:translate(0,0) rotate(0)}25%{transform:translate(calc(-46*var(--u)),calc(-62*var(--u))) rotate(-12deg)}50%{transform:translate(calc(28*var(--u)),calc(-96*var(--u))) rotate(10deg)}75%{transform:translate(calc(58*var(--u)),calc(-30*var(--u))) rotate(-6deg)}100%{transform:translate(0,0) rotate(0)}}
+.go-button{animation:gopulse 2s ease-out infinite}
+@keyframes gopulse{0%{box-shadow:0 0 0 0 rgba(255,92,254,.6)}80%,100%{box-shadow:0 0 0 calc(22*var(--u)) rgba(255,92,254,0)}}

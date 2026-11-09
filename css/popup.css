@@ -1,0 +1,12 @@
+/* DMCA popup */
+.popup{left:0;top:0;width:100%;height:100%;opacity:0;visibility:hidden;transition:opacity .35s,visibility 0s .35s;z-index:20}
+.popup>*{position:absolute;max-width:none}
+.popup-dim{left:0;top:0;width:100%;height:100%;display:block;opacity:0;pointer-events:none;transition:opacity .35s;z-index:19}
+.stage[data-pop] .popup-dim{opacity:1}
+.backdrop{opacity:0;pointer-events:none;transition:opacity .4s} .stage[data-pop] .backdrop{opacity:1}
+.stage[data-pop] .heading,.stage[data-pop] .rings{opacity:0!important}
+.stage[data-pop] .popup{opacity:1;visibility:visible;transition:opacity .35s}
+.stage[data-pop] .popup-card{animation:rise .55s cubic-bezier(.2,1.2,.4,1) backwards}
+.stage[data-pop] .popup-close-art{animation:turn .6s cubic-bezier(.2,1.6,.4,1) backwards}
+@keyframes rise{from{opacity:0;transform:translateY(calc(40*var(--u))) scale(.96)}}
+@keyframes turn{from{transform:rotate(-180deg) scale(0)}}
