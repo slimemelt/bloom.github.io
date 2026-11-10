@@ -43,5 +43,5 @@
 .popup-email{position:absolute;left:calc(321.00*var(--u));top:calc(1248.00*var(--u));width:calc(435.00*var(--u));height:calc(40.00*var(--u))}
 .popup-close-art{left:calc(476.80*var(--u));top:calc(211.00*var(--u));width:calc(93.20*var(--u))}
 .popup-close{position:absolute;border-radius:50%;left:calc(487.00*var(--u));top:calc(220.00*var(--u));width:calc(72.00*var(--u));height:calc(72.00*var(--u))}
-.footer-text{position:absolute;left:calc(92.00*var(--u));top:calc(2458.25*var(--u));width:calc(168.75*var(--u))}
-.footer-dmca-link{left:calc(88.00*var(--u));top:calc(2476.00*var(--u));width:calc(50.00*var(--u));height:calc(24.00*var(--u))}
+.footer-text{position:absolute;left:calc(50% - 431.5*var(--u));top:calc(100% - 115.75*var(--u));width:calc(168.75*var(--u))}
+.footer-dmca-link{left:calc(50% - 435.5*var(--u));top:calc(100% - 98.00*var(--u));width:calc(50.00*var(--u));height:calc(24.00*var(--u))}
