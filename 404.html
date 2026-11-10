@@ -14,18 +14,19 @@
   .rings { position: fixed; left: calc(50% - 1323.5 * var(--u)); top: calc(-150 * var(--u)); width: calc(2650 * var(--u)); pointer-events: none; }
   .hill { position: fixed; left: 0; bottom: 0; width: 100%; height: 30dvh; pointer-events: none; }
   main { position: relative; box-sizing: border-box; height: 66dvh; display: grid; place-content: center; justify-items: center; gap: 6px; padding: 0 24px; text-align: center; }
-  img.mark { width: min(64px, 9dvh); height: min(64px, 9dvh); margin-bottom: 8px; }
-  h1 { margin: 0; font-size: clamp(36px, min(14vw, 11dvh), 110px); font-weight: 900; line-height: .9; text-transform: lowercase; }
+  main { --w: min(78vw, 360px, 40dvh); }
+  img.mark { width: var(--w); height: auto; margin-bottom: calc(var(--w) * .07); }
+  h1 { margin: 0; font-size: calc(var(--w) / 5.6); font-weight: 900; line-height: .95; letter-spacing: -.01em; white-space: nowrap; text-transform: lowercase; }
   h1 span { color: #ff5cf0; }
-  p { max-width: 20em; margin: 0; font-size: clamp(18px, min(5vw, 4dvh), 30px); font-weight: 900; line-height: 1.05; }
-  a { display: block; margin-top: 12px; color: #ff5cf0; font-weight: 900; text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 3px; }
+  p { max-width: 17em; margin: calc(var(--w) * .06) 0 0; font-size: calc(var(--w) / 11); font-weight: 900; line-height: 1.05; }
+  a { display: block; margin-top: calc(var(--w) * .05); color: #ff5cf0; font-weight: 900; text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 3px; }
 </style>
 </head>
 <body>
 <img class="rings" src="/assets/img/rings-home.svg" alt="">
 <img class="hill" src="/assets/img/hill.svg" alt="">
 <main>
-  <img class="mark" src="/assets/favicon.svg" alt="">
+  <img class="mark" src="/assets/img/bloom-logo.webp" alt="bloom">
   <h1 id="title">one moment…</h1>
   <p id="detail"></p>
 </main>
