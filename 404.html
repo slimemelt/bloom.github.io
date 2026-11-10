@@ -7,17 +7,17 @@
 <title>one moment…</title>
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap">
 <style>
   :root { --u: calc(min(100vw, 520px) / 1047); }
-  html, body { height: 100%; margin: 0; background: #fff; color: #000; font-family: "Londrina Solid", "Arial Narrow", sans-serif; }
+  html, body { height: 100%; margin: 0; overflow: hidden; background: #fff; color: #000; font-family: "Londrina Solid", "Arial Narrow", sans-serif; }
   .rings { position: fixed; left: calc(50% - 1323.5 * var(--u)); top: calc(-150 * var(--u)); width: calc(2650 * var(--u)); pointer-events: none; }
-  .hill { position: fixed; left: 0; bottom: 0; width: 100%; height: 30vh; pointer-events: none; }
-  main { position: relative; min-height: 100%; display: grid; place-content: center; justify-items: center; gap: 6px; padding: 24px 24px 34vh; text-align: center; }
-  img.mark { width: 64px; height: 64px; margin-bottom: 8px; }
-  h1 { margin: 0; font-size: clamp(56px, 14vw, 110px); font-weight: 900; line-height: .9; text-transform: lowercase; }
+  .hill { position: fixed; left: 0; bottom: 0; width: 100%; height: 30dvh; pointer-events: none; }
+  main { position: relative; box-sizing: border-box; height: 66dvh; display: grid; place-content: center; justify-items: center; gap: 6px; padding: 0 24px; text-align: center; }
+  img.mark { width: min(64px, 9dvh); height: min(64px, 9dvh); margin-bottom: 8px; }
+  h1 { margin: 0; font-size: clamp(36px, min(14vw, 11dvh), 110px); font-weight: 900; line-height: .9; text-transform: lowercase; }
   h1 span { color: #ff5cf0; }
-  p { max-width: 20em; margin: 0; font-size: clamp(22px, 5vw, 30px); font-weight: 400; line-height: 1.05; }
+  p { max-width: 20em; margin: 0; font-size: clamp(18px, min(5vw, 4dvh), 30px); font-weight: 900; line-height: 1.05; }
   a { display: block; margin-top: 12px; color: #ff5cf0; font-weight: 900; text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 3px; }
 </style>
 </head>
