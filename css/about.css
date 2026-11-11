@@ -17,3 +17,5 @@
 .sprout img{display:block;width:100%;height:auto}
 .stage[data-screen=home] .sprout{pointer-events:auto}
 .stage[data-screen=home] .sprout:hover,.stage[data-screen=home] .sprout:focus-visible{transform:scale(1.1) rotate(-4deg)}
+.sprout .sprout-logo{position:absolute;left:50%;top:calc(-46*var(--u));width:calc(42*var(--u));margin-left:calc(-21*var(--u));opacity:0;transform:translateY(calc(10*var(--u))) scale(.6);transition:opacity .2s,transform .25s cubic-bezier(.2,1.6,.4,1);pointer-events:none}
+.stage[data-screen=home] .sprout:hover .sprout-logo,.stage[data-screen=home] .sprout:focus-visible .sprout-logo{opacity:1;transform:none}
