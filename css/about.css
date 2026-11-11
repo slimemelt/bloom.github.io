@@ -3,8 +3,8 @@
 .rings-about{left:calc(-700*var(--u));top:0;width:calc(2447*var(--u))}
 .about-flower{left:calc(816*var(--u));top:calc(96.4*var(--u));width:calc(170.6*var(--u))}
 .about{left:calc(67.8*var(--u));top:calc(275*var(--u));width:calc(929*var(--u))}
-.about-card{min-height:calc(796*var(--u));box-sizing:border-box;padding:calc(22*var(--u)) calc(29*var(--u)) calc(29*var(--u));border-radius:calc(74*var(--u));color:#000;font-size:calc(26*var(--u));font-weight:800;line-height:1.02;background:conic-gradient(from -30deg at 70% 24%,#fc0,#ff6100 50%,#ff5cfe 78%,#fc0)}
-.about-card h2{margin:calc(30*var(--u)) 0 0;font-size:calc(36*var(--u));font-weight:900;line-height:1}
+.about-card{min-height:calc(796*var(--u));box-sizing:border-box;padding:calc(22*var(--u)) calc(29*var(--u)) calc(29*var(--u));border-radius:calc(28*var(--u));color:#000;font-size:calc(26*var(--u));font-weight:800;line-height:1.16;background:conic-gradient(from -30deg at 70% 24%,#fc0,#ff6100 50%,#ff5cfe 78%,#fc0)}
+.about-card h2{margin:calc(30*var(--u)) 0 calc(6*var(--u));font-size:calc(36*var(--u));font-weight:900;line-height:1}
 .about-card h2:first-child{margin-top:0}
 .about-card p{margin:0}
 .about-card p+p{margin-top:calc(26*var(--u))}

@@ -43,5 +43,9 @@
 .popup-email{position:absolute;left:calc(321*var(--u));top:calc(1248*var(--u));width:calc(435*var(--u));height:calc(40*var(--u))}
 .popup-close-art{left:calc(476.8*var(--u));top:calc(211*var(--u));width:calc(93.2*var(--u))}
 .popup-close{position:absolute;border-radius:50%;left:calc(487*var(--u));top:calc(220*var(--u));width:calc(72*var(--u));height:calc(72*var(--u))}
-.footer-text{position:absolute;left:calc(50% - 431.5*var(--u));top:calc(100% - 115.8*var(--u));width:calc(168.8*var(--u))}
-.footer-dmca-link{left:calc(50% - 435.5*var(--u));top:calc(100% - 98*var(--u));width:calc(50*var(--u));height:calc(24*var(--u))}
+.footer-text,.footer-link{position:absolute;margin:0;color:#fff;font-size:calc(21*var(--u));font-weight:900;line-height:1;white-space:nowrap}
+.footer-text{left:calc(50% - 431.5*var(--u));top:calc(100% - 117*var(--u))}
+.footer-link{top:calc(100% - 91*var(--u));text-decoration:none}
+.footer-link:hover{text-decoration:underline;text-underline-offset:calc(3*var(--u))}
+.footer-dmca-link{left:calc(50% - 431.5*var(--u))}
+.footer-about-link{left:calc(50% - 344*var(--u))}
