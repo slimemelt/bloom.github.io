@@ -2,7 +2,7 @@
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--cw:min(100vw,520px);--u:min(calc(var(--cw)/1047),calc(100dvh/1560))}
 *{box-sizing:border-box} html{scroll-padding-top:env(safe-area-inset-top,0px)}
 html,body{height:100%;overflow:hidden}
-body{margin:0;background:#fff;font-family:"Londrina Solid","Arial Narrow",system-ui,sans-serif}
+body{margin:0;background:#fff;font-family:ui-rounded, "SF Compact Rounded", "SF Pro Rounded", "Nunito", system-ui, sans-serif}
 :focus-visible{outline:calc(4*var(--u)) solid #ff5cfe;outline-offset:calc(4*var(--u))}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

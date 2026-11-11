@@ -11,3 +11,7 @@ Run locally with `python3 -m http.server 8000`. Deploy like the Yeeps site; `CNA
 `MONARCH_URL` in `js/config.js` points at monarch.bloomnetworks.net.
 
 `404.html` forwards short links (for example `/discord`) managed in the Yeeps admin; see `yeeps-site/README.md`.
+
+## Type
+
+Text is set in SF Compact Rounded where the device has it (`ui-rounded` picks the system rounded face on Apple devices) and falls back to Nunito, loaded from Google Fonts, everywhere else. Apple's SF fonts can't be self-hosted, so there is no font file in this repo.
