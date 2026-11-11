@@ -2,15 +2,16 @@
 .stage[data-screen=about] :is(.ground,.ground-2){opacity:0}
 .rings-about{left:calc(-700*var(--u));top:0;width:calc(2447*var(--u))}
 .about-flower{left:calc(816*var(--u));top:calc(96.4*var(--u));width:calc(170.6*var(--u))}
-.about-card{left:calc(67.8*var(--u));top:calc(275*var(--u));width:calc(929*var(--u));height:calc(796*var(--u));box-sizing:border-box;padding:calc(22*var(--u)) calc(29*var(--u));border-radius:calc(74*var(--u));color:#000;font-size:calc(25*var(--u));font-weight:800;line-height:1.08;background:conic-gradient(from -30deg at 70% 24%,#fc0,#ff6100 50%,#ff5cfe 78%,#fc0)}
-.about-card h2{margin:calc(30*var(--u)) 0 0;font-size:calc(29*var(--u));font-weight:900;line-height:1.05}
+.about{left:calc(67.8*var(--u));top:calc(275*var(--u));width:calc(929*var(--u))}
+.about-card{min-height:calc(796*var(--u));box-sizing:border-box;padding:calc(22*var(--u)) calc(29*var(--u)) calc(29*var(--u));border-radius:calc(74*var(--u));color:#000;font-size:calc(26*var(--u));font-weight:800;line-height:1.02;background:conic-gradient(from -30deg at 70% 24%,#fc0,#ff6100 50%,#ff5cfe 78%,#fc0)}
+.about-card h2{margin:calc(30*var(--u)) 0 0;font-size:calc(36*var(--u));font-weight:900;line-height:1}
 .about-card h2:first-child{margin-top:0}
 .about-card p{margin:0}
-.about-card p+p{margin-top:calc(14*var(--u))}
+.about-card p+p{margin-top:calc(26*var(--u))}
 .about-card b{font-weight:900}
 .about-card a{color:inherit;text-underline-offset:calc(3*var(--u))}
-.about-card .about-sign{margin-top:calc(26*var(--u));font-weight:900}
-.about-logo{left:calc(114*var(--u));top:calc(1094*var(--u));width:calc(114*var(--u))}
+.about-card .about-sign{margin-top:calc(30*var(--u));font-weight:900}
+.about-logo{display:block;margin:calc(23*var(--u)) 0 0 calc(46*var(--u));width:calc(114*var(--u))}
 /* a sprout beside the Yeeps flower; it links to the Yeeps Channel Discord */
 .sprout{left:calc(150*var(--u));top:calc(1356*var(--u));width:calc(128*var(--u));display:block;z-index:5;transform-origin:50% 100%;transition:opacity .4s,transform .25s cubic-bezier(.2,1.6,.4,1)}
 .sprout img{display:block;width:100%;height:auto}
