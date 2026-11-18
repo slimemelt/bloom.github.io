@@ -5,9 +5,9 @@ const popup = document.getElementById("pop");
 const closeButton = document.getElementById("close");
 
 const TITLES = {
-  yeeps: "Yeeps Channel – Bloom Networks",
-  monarch: "Monarch – Bloom Networks",
-  about: "About – Bloom Networks",
+  yeeps: "Yeeps Channel - Bloom Networks",
+  monarch: "Monarch - Bloom Networks",
+  about: "About - Bloom Networks",
   home: "Bloom Networks",
 };
 
@@ -24,7 +24,7 @@ export function renderRoute() {
     delete stage.dataset.pop;
   }
   popup.setAttribute("aria-hidden", String(!popupOpen));
-  document.title = popupOpen ? "DMCA – Bloom Networks" : TITLES[screen];
+  document.title = popupOpen ? "DMCA - Bloom Networks" : TITLES[screen];
 }
 
 const goHome = () => (location.hash = "#home");
