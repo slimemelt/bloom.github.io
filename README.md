@@ -2,7 +2,7 @@
 
 Static "pick your flower" page for bloomnetworks.net. Links to the Yeeps site and Monarch.
 
-- `js/config.js` - destination URLs, hash routes, loader delay
+- `js/config.js` - destination URLs, path routes, loader delay
 - `js/scene.js` - routing by path (`/yeeps`, `/monarch`, `/dmca`), hover, popup
 - `css/` - one file per concern; `layout.css` holds the positioned artwork. The page is one screen tall: `--u` is the smaller of width/1047 and height/1560, so nothing scrolls.
 
