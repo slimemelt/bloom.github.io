@@ -1,4 +1,4 @@
-import { SCREENS } from "./config.js";
+import { SCREENS, POPUP_PATH } from "./config.js";
 
 const stage = document.getElementById("stage");
 const popup = document.getElementById("pop");
@@ -11,10 +11,13 @@ const TITLES = {
   home: "Bloom Networks",
 };
 
-// The URL hash is the only state: #yeeps / #monarch pick a screen, #dmca opens the popup.
+const cleanPath = () => location.pathname.replace(/\/+$/, "") || "/";
+
+// The URL path is the only state: /yeeps and /monarch pick a screen, /dmca opens the popup.
 export function renderRoute() {
-  const screen = SCREENS[location.hash] ?? "home";
-  const popupOpen = location.hash === "#dmca";
+  const path = cleanPath();
+  const screen = SCREENS[path] ?? "home";
+  const popupOpen = path === POPUP_PATH;
 
   stage.dataset.screen = screen;
   if (popupOpen) {
@@ -27,13 +30,18 @@ export function renderRoute() {
   document.title = popupOpen ? "DMCA - Bloom Networks" : TITLES[screen];
 }
 
-const goHome = () => (location.hash = "#home");
+function go(path) {
+  if (cleanPath() !== path) history.pushState(null, "", path);
+  renderRoute();
+}
+
+const goHome = () => go("/");
 
 export function initScene() {
   // Clicking the flower you're already on goes back to all flowers.
   document.querySelectorAll(".hit").forEach((hit) => {
     const target = hit.dataset.go;
-    hit.addEventListener("click", () => (location.hash = stage.dataset.screen === target ? "#home" : `#${target}`));
+    hit.addEventListener("click", () => go(stage.dataset.screen === target ? "/" : `/${target}`));
     const showHover = () => (stage.dataset.hover = target);
     const clearHover = () => delete stage.dataset.hover;
     hit.addEventListener("mouseenter", showHover);
@@ -50,6 +58,24 @@ export function initScene() {
     if (stage.dataset.pop || stage.dataset.screen !== "home") goHome();
   });
 
-  addEventListener("hashchange", renderRoute);
+  // The footer links are real links; handle them here so the page doesn't reload.
+  document.querySelectorAll(".site-footer a[href^='/']").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      go(link.getAttribute("href"));
+    });
+  });
+
+  // Old links like /#yeeps still land on the right screen.
+  const handedOver = sessionStorage.getItem("bloom-path");
+  if (handedOver) {
+    sessionStorage.removeItem("bloom-path");
+    history.replaceState(null, "", handedOver);
+  }
+
+  const legacy = location.hash.replace("#", "/");
+  if (location.pathname === "/" && (SCREENS[legacy] || legacy === POPUP_PATH)) history.replaceState(null, "", legacy);
+
+  addEventListener("popstate", renderRoute);
   renderRoute();
 }

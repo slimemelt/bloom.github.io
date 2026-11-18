@@ -52,12 +52,20 @@
     return redirects.find((row) => row.host === host && row.path === path)?.url;
   }
 
-  try {
-    const destination = await findDestination();
-    if (destination) location.replace(destination);
-    else showNotFound();
-  } catch {
-    showNotFound();
+  // The screens (/yeeps, /monarch, /about, /dmca) belong to the home page; hand the path to it.
+  const SCREEN_PATHS = ["yeeps", "ypch", "monarch", "about", "dmca"];
+
+  if (SCREEN_PATHS.includes(path)) {
+    sessionStorage.setItem("bloom-path", `/${path}`);
+    location.replace("/");
+  } else {
+    try {
+      const destination = await findDestination();
+      if (destination) location.replace(destination);
+      else showNotFound();
+    } catch {
+      showNotFound();
+    }
   }
 </script>
 </body>
