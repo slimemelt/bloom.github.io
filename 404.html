@@ -31,8 +31,6 @@
   <p id="detail"></p>
 </main>
 <script type="module">
-  // GitHub Pages serves this file for any path that doesn't exist. If the path is a short link
-  // saved in the admin (for example /discord), forward the visitor; otherwise show "not found".
   const API = "https://api.bloomnetworks.net";
 
   const host = location.hostname.replace(/^www\./, "");
@@ -52,7 +50,6 @@
     return redirects.find((row) => row.host === host && row.path === path)?.url;
   }
 
-  // The screens (/yeeps, /monarch, /about, /dmca) belong to the home page; hand the path to it.
   const SCREEN_PATHS = ["yeeps", "ypch", "monarch", "about", "dmca"];
 
   if (SCREEN_PATHS.includes(path)) {

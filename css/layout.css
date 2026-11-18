@@ -1,4 +1,3 @@
-/* Positions measured from the Figma export. --u is 1/1047 of the artboard width. */
 .rings-home{left:calc(-800*var(--u));top:calc(-150*var(--u));width:calc(2650*var(--u))}
 .rings-yeeps{left:calc(-800*var(--u));top:calc(-150*var(--u));width:calc(2650*var(--u))}
 .rings-monarch{left:calc(-800*var(--u));top:calc(-150*var(--u));width:calc(2650*var(--u))}

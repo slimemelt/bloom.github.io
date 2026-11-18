@@ -1,4 +1,3 @@
-/* Loading screen */
 #loader{position:fixed;inset:0;z-index:100;display:grid;place-items:center;transition:opacity .35s,visibility 0s .35s}
 #loader.off{opacity:0;visibility:hidden;pointer-events:none}
 #loader .loader-background{position:absolute;inset:0;width:100%;height:100%;display:block}
