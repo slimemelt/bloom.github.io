@@ -1,4 +1,3 @@
-/* DMCA popup */
 .popup{left:0;top:0;width:100%;height:100%;opacity:0;visibility:hidden;transition:opacity .35s,visibility 0s .35s;z-index:20}
 .popup>*{position:absolute;max-width:none}
 .popup-dim{left:0;top:0;width:100%;height:100%;display:block;opacity:0;pointer-events:none;transition:opacity .35s;z-index:19}

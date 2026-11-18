@@ -1,4 +1,3 @@
-/* About screen: rings and flower from the design, a gradient card with live text, the logo below. */
 .stage[data-screen=about] :is(.ground,.ground-2){opacity:0}
 .rings-about{left:calc(-700*var(--u));top:0;width:calc(2447*var(--u))}
 .about-flower{left:calc(816*var(--u));top:calc(96.4*var(--u));width:calc(170.6*var(--u))}
@@ -12,7 +11,6 @@
 .about-card a{color:inherit;text-underline-offset:calc(3*var(--u))}
 .about-card .about-sign{margin-top:calc(30*var(--u));font-weight:900}
 .about-logo{display:block;margin:calc(23*var(--u)) 0 0 calc(46*var(--u));width:calc(114*var(--u))}
-/* a sprout beside the Yeeps flower; it links to the Yeeps Channel Discord */
 .sprout{left:calc(150*var(--u));top:calc(1356*var(--u));width:calc(128*var(--u));display:block;z-index:5;transform-origin:50% 100%;transition:opacity .4s,transform .25s cubic-bezier(.2,1.6,.4,1)}
 .sprout img{display:block;width:100%;height:auto}
 .stage[data-screen=home] .sprout{pointer-events:auto}

@@ -10,7 +10,6 @@ const destinations = { "go-yeeps": YEEPS_URL, "go-monarch": MONARCH_URL };
 for (const [id, url] of Object.entries(destinations)) {
   const link = document.getElementById(id);
   link.href = url;
-  // Leave right away; if the other site is slow to answer, the loading screen covers the wait.
   link.addEventListener("click", showLoaderIfSlow);
 }
 
@@ -18,7 +17,7 @@ initScene();
 
 const reveal = () => {
   loader.classList.add("off");
-  setTimeout(() => stage.classList.add("ready"), 100); // flowers grow in
+  setTimeout(() => stage.classList.add("ready"), 100);
 };
 if (document.readyState === "complete") {
   reveal();
@@ -30,5 +29,4 @@ if (document.readyState === "complete") {
   });
 }
 
-// Coming back with the browser's back button should not show a stuck loader.
 addEventListener("pageshow", (event) => event.persisted && loader.classList.add("off"));

@@ -13,7 +13,6 @@ const TITLES = {
 
 const cleanPath = () => location.pathname.replace(/\/+$/, "") || "/";
 
-// The URL path is the only state: /yeeps and /monarch pick a screen, /dmca opens the popup.
 export function renderRoute() {
   const path = cleanPath();
   const screen = SCREENS[path] ?? "home";
@@ -38,7 +37,6 @@ function go(path) {
 const goHome = () => go("/");
 
 export function initScene() {
-  // Clicking the flower you're already on goes back to all flowers.
   document.querySelectorAll(".hit").forEach((hit) => {
     const target = hit.dataset.go;
     hit.addEventListener("click", () => go(stage.dataset.screen === target ? "/" : `/${target}`));
@@ -58,7 +56,6 @@ export function initScene() {
     if (stage.dataset.pop || stage.dataset.screen !== "home") goHome();
   });
 
-  // The footer links are real links; handle them here so the page doesn't reload.
   document.querySelectorAll(".site-footer a[href^='/']").forEach((link) => {
     link.addEventListener("click", (event) => {
       event.preventDefault();
@@ -66,7 +63,6 @@ export function initScene() {
     });
   });
 
-  // Old links like /#yeeps still land on the right screen.
   const handedOver = sessionStorage.getItem("bloom-path");
   if (handedOver) {
     sessionStorage.removeItem("bloom-path");
