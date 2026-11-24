@@ -58,7 +58,7 @@ export function initScene() {
     if (stage.dataset.pop || stage.dataset.screen !== "home") goHome();
   });
 
-  document.querySelectorAll(".site-footer a[href^='/'], .ages a[href='/']").forEach((link) => {
+  document.querySelectorAll(".site-footer a[href^='/'], .ages a[href='/'], .about a[href='/']").forEach((link) => {
     link.addEventListener("click", (event) => {
       event.preventDefault();
       go(link.getAttribute("href"));
