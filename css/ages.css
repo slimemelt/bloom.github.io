@@ -1,5 +1,5 @@
 html[data-screen=age-guidelines],html[data-screen=age-guidelines] body{height:auto;overflow-x:hidden;overflow-y:auto}
-.stage[data-screen=age-guidelines]{height:max(100dvh,calc(1830*var(--u)))}
+.stage[data-screen=age-guidelines]{height:max(100dvh,calc(1980*var(--u)))}
 .stage[data-screen=age-guidelines] :is(.ground,.ground-2,.back-button){display:none}
 .ages{left:calc(59.2*var(--u));top:calc(280.5*var(--u));width:calc(928.8*var(--u))}
 .ages-card{box-sizing:border-box;padding:calc(32*var(--u)) calc(38*var(--u)) calc(46*var(--u)) calc(32.6*var(--u));border-radius:calc(74.2*var(--u));color:#000;font-size:calc(26.7*var(--u));font-weight:800;line-height:calc(27*var(--u));background:conic-gradient(from -30deg at 70% 24%,#fc0,#ff6100 50%,#ff5cfe 78%,#fc0)}
@@ -13,7 +13,7 @@ html[data-screen=age-guidelines],html[data-screen=age-guidelines] body{height:au
 .rating-badge{margin:0 0 calc(15*var(--u));line-height:0}
 .rating-badge img{display:block;width:calc(136.8*var(--u));height:auto}
 .rating-14plus{margin-bottom:calc(9*var(--u))}
-.ages-logo{position:absolute;display:block;left:calc(32.8*var(--u));top:calc(1305.5*var(--u));width:calc(155*var(--u));pointer-events:auto}
+.ages-logo{display:block;width:calc(155*var(--u));margin:calc(16*var(--u)) 0 0 calc(32.8*var(--u));pointer-events:auto}
 .ages-logo img{display:block;width:100%;height:auto}
 .rating p{max-width:calc(826*var(--u))}
 .rating:first-child .rating-badge{margin-bottom:calc(9*var(--u))}
