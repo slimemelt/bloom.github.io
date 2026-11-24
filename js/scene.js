@@ -8,6 +8,7 @@ const TITLES = {
   yeeps: "Yeeps Channel - Bloom Networks",
   monarch: "Monarch - Bloom Networks",
   about: "About - Bloom Networks",
+  "age-guidelines": "Age Guidelines - Bloom Networks",
   home: "Bloom Networks",
 };
 
@@ -19,6 +20,7 @@ export function renderRoute() {
   const popupOpen = path === POPUP_PATH;
 
   stage.dataset.screen = screen;
+  document.documentElement.dataset.screen = screen;
   if (popupOpen) {
     stage.dataset.pop = "1";
     setTimeout(() => closeButton.focus(), 50);
@@ -56,7 +58,7 @@ export function initScene() {
     if (stage.dataset.pop || stage.dataset.screen !== "home") goHome();
   });
 
-  document.querySelectorAll(".site-footer a[href^='/']").forEach((link) => {
+  document.querySelectorAll(".site-footer a[href^='/'], .ages a[href='/']").forEach((link) => {
     link.addEventListener("click", (event) => {
       event.preventDefault();
       go(link.getAttribute("href"));

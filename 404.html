@@ -50,7 +50,7 @@
     return redirects.find((row) => row.host === host && row.path === path)?.url;
   }
 
-  const SCREEN_PATHS = ["yeeps", "ypch", "monarch", "about", "dmca"];
+  const SCREEN_PATHS = ["yeeps", "ypch", "monarch", "about", "age-guidelines", "dmca"];
 
   if (SCREEN_PATHS.includes(path)) {
     sessionStorage.setItem("bloom-path", `/${path}`);
