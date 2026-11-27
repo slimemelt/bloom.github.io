@@ -1,43 +1,73 @@
 .rings-home{left:calc(-800*var(--u));top:calc(-150*var(--u));width:calc(2650*var(--u))}
 .rings-yeeps{left:calc(-800*var(--u));top:calc(-150*var(--u));width:calc(2650*var(--u))}
 .rings-monarch{left:calc(-800*var(--u));top:calc(-150*var(--u));width:calc(2650*var(--u))}
+.rings-firefly{left:calc(-800*var(--u));top:calc(-150*var(--u));width:calc(2650*var(--u))}
 .backdrop{left:calc(-800*var(--u));top:calc(-150*var(--u));width:calc(2650*var(--u))}
 .ground{left:calc(276.4*var(--u));top:calc(1394*var(--u));width:calc(526*var(--u))}
-.flower-home-yeeps{left:calc(292*var(--u));top:calc(1160.4*var(--u));width:calc(212*var(--u));height:calc(304*var(--u));transform-origin:52.5% 100%}
-.flower-home-yeeps-stem{left:44.53%;top:43.95%;width:15.85%}
+.flower-home-yeeps{left:calc(299.7*var(--u));top:calc(1154.4*var(--u));width:calc(206.7*var(--u));height:calc(308.6*var(--u));transform-origin:54.26% 100%}
+.flower-home-yeeps-stem{left:47.13%;top:46.79%;width:11%}
 .flower-home-yeeps-head{left:0%;top:0%;width:100%}
-.flower-home-monarch{left:calc(546.4*var(--u));top:calc(1213.2*var(--u));width:calc(171.6*var(--u));height:calc(241.6*var(--u));transform-origin:32.6% 100%}
-.flower-home-monarch-stem{left:14.69%;top:41.06%;width:35.9%}
+.flower-home-monarch{left:calc(468.9*var(--u));top:calc(1206.9*var(--u));width:calc(168.2*var(--u));height:calc(246.8*var(--u));transform-origin:26.61% 100%}
+.flower-home-monarch-stem{left:18.53%;top:44.89%;width:30.59%}
 .flower-home-monarch-head{left:0%;top:0%;width:100%}
-.flower-yeeps-yeeps{left:calc(266.4*var(--u));top:calc(1065.6*var(--u));width:calc(271.6*var(--u));height:calc(400*var(--u));transform-origin:53.2% 100%}
-.flower-yeeps-yeeps-stem{left:47.57%;top:45.2%;width:11.19%}
+.flower-home-firefly{left:calc(600.5*var(--u));top:calc(1173.2*var(--u));width:calc(186*var(--u));height:calc(255.7*var(--u));transform-origin:70.97% 100%}
+.flower-home-firefly-stem{left:50.8%;top:46.81%;width:27.66%}
+.flower-home-firefly-head{left:0%;top:0%;width:100%}
+.flower-yeeps-yeeps{left:calc(266.1*var(--u));top:calc(1054*var(--u));width:calc(275*var(--u));height:calc(411.5*var(--u));transform-origin:54.26% 100%}
+.flower-yeeps-yeeps-stem{left:47.12%;top:46.75%;width:10.97%}
 .flower-yeeps-yeeps-head{left:0%;top:0%;width:100%}
-.flower-yeeps-monarch{left:calc(555.2*var(--u));top:calc(1216.4*var(--u));width:calc(162.8*var(--u));height:calc(236.8*var(--u));transform-origin:32.1% 100%}
-.flower-yeeps-monarch-stem{left:16.22%;top:42.57%;width:31.7%}
+.flower-yeeps-monarch{left:calc(461*var(--u));top:calc(1203.9*var(--u));width:calc(169.2*var(--u));height:calc(247.3*var(--u));transform-origin:27.01% 100%}
+.flower-yeeps-monarch-stem{left:19.01%;top:44.8%;width:30.41%}
 .flower-yeeps-monarch-head{left:0%;top:0%;width:100%}
-.flower-monarch-yeeps{left:calc(292*var(--u));top:calc(1160.4*var(--u));width:calc(212*var(--u));height:calc(304*var(--u));transform-origin:52.5% 100%}
-.flower-monarch-yeeps-stem{left:44.53%;top:43.95%;width:15.85%}
+.flower-yeeps-firefly{left:calc(610.8*var(--u));top:calc(1154.9*var(--u));width:calc(186*var(--u));height:calc(255.7*var(--u));transform-origin:70.97% 100%}
+.flower-yeeps-firefly-stem{left:50.8%;top:46.81%;width:27.66%}
+.flower-yeeps-firefly-head{left:0%;top:0%;width:100%}
+.flower-monarch-firefly{left:calc(616.3*var(--u));top:calc(1195.5*var(--u));width:calc(185*var(--u));height:calc(255.2*var(--u));transform-origin:71.21% 100%}
+.flower-monarch-firefly-stem{left:50.8%;top:46.71%;width:27.81%}
+.flower-monarch-firefly-head{left:0%;top:0%;width:100%}
+.flower-monarch-yeeps{left:calc(299.7*var(--u));top:calc(1154.4*var(--u));width:calc(206.7*var(--u));height:calc(308.6*var(--u));transform-origin:54.26% 100%}
+.flower-monarch-yeeps-stem{left:47.13%;top:46.79%;width:11%}
 .flower-monarch-yeeps-head{left:0%;top:0%;width:100%}
-.flower-monarch-monarch{left:calc(489.2*var(--u));top:calc(1052*var(--u));width:calc(286.4*var(--u));height:calc(408.4*var(--u));transform-origin:32.4% 100%}
-.flower-monarch-monarch-stem{left:15.36%;top:41.72%;width:34.08%}
+.flower-monarch-monarch{left:calc(422.9*var(--u));top:calc(1038.2*var(--u));width:calc(286.9*var(--u));height:calc(420.4*var(--u));transform-origin:26.84% 100%}
+.flower-monarch-monarch-stem{left:18.79%;top:44.94%;width:30.52%}
 .flower-monarch-monarch-head{left:0%;top:0%;width:100%}
-.ground-2{left:calc(276.4*var(--u));top:calc(1400*var(--u));width:calc(526*var(--u))}
+.flower-firefly-yeeps{left:calc(248.8*var(--u));top:calc(1160.9*var(--u));width:calc(206.7*var(--u));height:calc(308.6*var(--u));transform-origin:54.14% 100%}
+.flower-firefly-yeeps-stem{left:46.89%;top:46.79%;width:11.24%}
+.flower-firefly-yeeps-head{left:0%;top:0%;width:100%}
+.flower-firefly-monarch{left:calc(403.6*var(--u));top:calc(1163.3*var(--u));width:calc(204.8*var(--u));height:calc(304.2*var(--u));transform-origin:26.86% 100%}
+.flower-firefly-monarch-stem{left:16.67%;top:42.93%;width:34.54%}
+.flower-firefly-monarch-head{left:0%;top:0%;width:100%}
+.flower-firefly-firefly{left:calc(528.2*var(--u));top:calc(1019.4*var(--u));width:calc(306.7*var(--u));height:calc(430.8*var(--u));transform-origin:71.96% 100%}
+.flower-firefly-firefly-stem{left:51.77%;top:46.96%;width:26.94%}
+.flower-firefly-firefly-head{left:0%;top:0%;width:100%}
+.ground-2-home{left:calc(277*var(--u));top:calc(1400.3*var(--u));width:calc(524.8*var(--u))}
+.ground-2-yeeps{left:calc(277*var(--u));top:calc(1400.3*var(--u));width:calc(524.8*var(--u))}
+.ground-2-monarch{left:calc(277*var(--u));top:calc(1400.3*var(--u));width:calc(524.8*var(--u))}
+.ground-2-firefly{left:calc(277*var(--u));top:calc(1400.3*var(--u));width:calc(524.8*var(--u))}
 .pin-home{left:calc(276.8*var(--u));top:calc(1383.2*var(--u));width:calc(97.6*var(--u))}
 .pin-yeeps{left:calc(268*var(--u));top:calc(1301.2*var(--u));width:calc(96.8*var(--u))}
-.pin-monarch{left:calc(276.8*var(--u));top:calc(1383.2*var(--u));width:calc(97.6*var(--u))}
-.butterfly{left:calc(753.6*var(--u));top:calc(1212*var(--u));width:calc(142*var(--u));height:calc(125.6*var(--u))}
-.heading-home{left:calc(306.4*var(--u));top:calc(874.8*var(--u));width:calc(436.8*var(--u))}
-.heading-yeeps{left:calc(220.4*var(--u));top:calc(582.8*var(--u));width:calc(604.8*var(--u))}
-.heading-monarch{left:calc(234.4*var(--u));top:calc(582.8*var(--u));width:calc(576.4*var(--u))}
-.hit-home-yeeps{left:calc(290*var(--u));top:calc(1160*var(--u));width:calc(215*var(--u));height:calc(305*var(--u))}
-.hit-home-monarch{left:calc(540*var(--u));top:calc(1210*var(--u));width:calc(190*var(--u));height:calc(255*var(--u))}
-.hit-yeeps-yeeps{left:calc(266*var(--u));top:calc(1065*var(--u));width:calc(272*var(--u));height:calc(401*var(--u))}
-.hit-yeeps-monarch{left:calc(555*var(--u));top:calc(1216*var(--u));width:calc(163*var(--u));height:calc(238*var(--u))}
-.hit-monarch-yeeps{left:calc(292*var(--u));top:calc(1160*var(--u));width:calc(215*var(--u));height:calc(305*var(--u))}
-.hit-monarch-monarch{left:calc(497*var(--u));top:calc(1052*var(--u));width:calc(280*var(--u));height:calc(413*var(--u))}
+.pin-monarch,.pin-firefly{left:calc(276.8*var(--u));top:calc(1383.2*var(--u));width:calc(97.6*var(--u))}
+.heading-home{left:calc(306.2*var(--u));top:calc(874.5*var(--u));width:calc(436.7*var(--u))}
+.heading-yeeps{left:calc(222.6*var(--u));top:calc(582.7*var(--u));width:calc(602.9*var(--u))}
+.heading-monarch{left:calc(233*var(--u));top:calc(582.7*var(--u));width:calc(580.6*var(--u))}
+.heading-firefly{left:calc(229*var(--u));top:calc(482.2*var(--u));width:calc(588.6*var(--u))}
+.butterfly-monarch{left:calc(689*var(--u));top:calc(1009*var(--u));width:calc(130.1*var(--u));height:calc(127.6*var(--u))}
+.butterfly-firefly{left:calc(764.7*var(--u));top:calc(940.3*var(--u));width:calc(180.5*var(--u));height:calc(168.2*var(--u))}
+.hit-home-yeeps{left:calc(299.4*var(--u));top:calc(1154.1*var(--u));width:calc(207.3*var(--u));height:calc(309.2*var(--u))}
+.hit-home-monarch{left:calc(468.6*var(--u));top:calc(1206.6*var(--u));width:calc(168.8*var(--u));height:calc(247.4*var(--u))}
+.hit-home-firefly{left:calc(600.2*var(--u));top:calc(1172.9*var(--u));width:calc(186.6*var(--u));height:calc(256.3*var(--u))}
+.hit-yeeps-yeeps{left:calc(265.8*var(--u));top:calc(1053.7*var(--u));width:calc(275.6*var(--u));height:calc(412.1*var(--u))}
+.hit-yeeps-monarch{left:calc(460.7*var(--u));top:calc(1203.6*var(--u));width:calc(169.8*var(--u));height:calc(247.9*var(--u))}
+.hit-yeeps-firefly{left:calc(610.6*var(--u));top:calc(1154.6*var(--u));width:calc(186.6*var(--u));height:calc(256.3*var(--u))}
+.hit-monarch-firefly{left:calc(616.0*var(--u));top:calc(1195.2*var(--u));width:calc(185.6*var(--u));height:calc(255.8*var(--u))}
+.hit-monarch-yeeps{left:calc(299.4*var(--u));top:calc(1154.1*var(--u));width:calc(207.3*var(--u));height:calc(309.2*var(--u))}
+.hit-monarch-monarch{left:calc(422.6*var(--u));top:calc(1037.9*var(--u));width:calc(287.5*var(--u));height:calc(421*var(--u))}
+.hit-firefly-yeeps{left:calc(248.5*var(--u));top:calc(1160.6*var(--u));width:calc(207.3*var(--u));height:calc(309.2*var(--u))}
+.hit-firefly-monarch{left:calc(403.3*var(--u));top:calc(1163*var(--u));width:calc(205.4*var(--u));height:calc(304.8*var(--u))}
+.hit-firefly-firefly{left:calc(528.0*var(--u));top:calc(1019.1*var(--u));width:calc(307.3*var(--u));height:calc(431.4*var(--u))}
 .back-button{left:calc(355*var(--u));top:calc(583*var(--u));width:calc(336*var(--u));height:calc(100*var(--u))}
 .go-yeeps{left:calc(390*var(--u));top:calc(952*var(--u));width:calc(266*var(--u));height:calc(80*var(--u))}
-.go-monarch{left:calc(390*var(--u));top:calc(910*var(--u));width:calc(266*var(--u));height:calc(80*var(--u))}
+.go-monarch,.go-firefly{left:calc(390*var(--u));top:calc(910*var(--u));width:calc(266*var(--u));height:calc(80*var(--u))}
 .popup-card{left:calc(172*var(--u));top:calc(362.8*var(--u));width:calc(736.8*var(--u))}
 .popup-email{position:absolute;left:calc(321*var(--u));top:calc(1248*var(--u));width:calc(435*var(--u));height:calc(40*var(--u))}
 .popup-close-art{left:calc(476.8*var(--u));top:calc(211*var(--u));width:calc(93.2*var(--u))}
@@ -48,3 +78,4 @@
 .footer-link:hover{text-decoration:underline;text-underline-offset:calc(3*var(--u))}
 .footer-dmca-link{left:calc(50% - 431.5*var(--u))}
 .footer-about-link{left:calc(50% - 344*var(--u))}
+.stage[data-screen=firefly] .back-button{top:calc(482*var(--u))}

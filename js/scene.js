@@ -7,6 +7,7 @@ const closeButton = document.getElementById("close");
 const TITLES = {
   yeeps: "Yeeps Channel - Bloom Networks",
   monarch: "Monarch - Bloom Networks",
+  firefly: "Firefly - Bloom Networks",
   about: "About - Bloom Networks",
   "age-guidelines": "Age Guidelines - Bloom Networks",
   home: "Bloom Networks",

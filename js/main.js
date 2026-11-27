@@ -1,4 +1,4 @@
-import { YEEPS_URL, MONARCH_URL, SLOW_LOAD_MS } from "./config.js";
+import { YEEPS_URL, MONARCH_URL, FIREFLY_URL, SLOW_LOAD_MS } from "./config.js";
 import { initScene } from "./scene.js";
 
 const stage = document.getElementById("stage");
@@ -6,7 +6,7 @@ const loader = document.getElementById("loader");
 
 const showLoaderIfSlow = () => setTimeout(() => loader.classList.remove("off"), SLOW_LOAD_MS);
 
-const destinations = { "go-yeeps": YEEPS_URL, "go-monarch": MONARCH_URL };
+const destinations = { "go-yeeps": YEEPS_URL, "go-monarch": MONARCH_URL, "go-firefly": FIREFLY_URL };
 for (const [id, url] of Object.entries(destinations)) {
   const link = document.getElementById(id);
   link.href = url;
